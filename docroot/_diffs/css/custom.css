@@ -1,1 +1,91 @@
-/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+body {
+	background: #EEEEEE center top;
+	color: #DCDCDC;
+	font: 74% Arial, Helvetica, Sans-Serif;
+}
+
+div#wrapper header#banner {
+	background: #FDFDFD url(../images/custom/cstrip.gif) repeat-x;
+	height: 74px;
+}
+
+.logo {
+	float: left;
+	margin-left: 20px;
+	margin-top: 2px;
+}
+
+header #name {
+	float: left;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+header #name span {
+	font-size: 3.4em;
+	font-weight: bold;
+	text-indent: 0px;
+}
+
+header #name span#name2 {
+	color: #9AB2BE;
+}
+
+/**Navigation***/
+#navigation {
+	float: right;
+}
+
+#navigation ul {
+	list-style: none;
+	float: left;
+}
+
+#navigation li {
+	display: inline;
+}
+
+#navigation li.selected  span {
+	border-bottom: solid 2px #244458;
+	font-weight: bold;
+}
+
+#navigation li a {
+	text-align: center;
+	color: #9ab2be;
+	float: left;
+	height: 38px;
+	margin-right: 1px;
+	text-decoration: none;
+	font-size: 1.3em;
+	padding: 10px 20px 13px 20px;
+}
+
+#navigation a:hover {
+	color: #fff;
+}
+
+/**footer ***/
+#footer {
+	background: #2e2e2e url(../images/custom/fstrip1.gif) repeat-x;
+	margin: 0 auto;
+	text-align: center;
+	clear:both;
+	height:30px;
+	padding-top:10px;
+}
+#footer a {
+	color: #5E6F6E;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #9ab2be;
+	text-decoration: underline;
+}
+
+/*Content*/
+#content
+{
+	background:#244458 no-repeat ;
+	min-height:284px;
+}
